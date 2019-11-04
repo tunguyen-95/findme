@@ -14,7 +14,6 @@ import './GameContainer.css';
 class SecondGameContainer extends Component {
   state = { answerIncorrectly: false };
 
-  //function to scip the question, called on the 'Next' button
   handleSubmit = event => {
     event.preventDefault();
     this.renderRightImage();
@@ -39,7 +38,7 @@ class SecondGameContainer extends Component {
       this.props.addDifficulty(1);
     }
 
-    //fetching the random photo with the right answer
+    //fetching random photo with the right answer
     request
       .get('https://dog.ceo/api/breeds/image/random')
       .then(res =>
@@ -80,7 +79,7 @@ class SecondGameContainer extends Component {
   };
 
   renderGame = () => {
-    //getting random order of the displayed photos
+    //getting random photos
     let urls = [];
 
     if (this.props.imagesObjects.length !== 0) {
@@ -164,7 +163,6 @@ class SecondGameContainer extends Component {
     );
   };
 
-  //displaying correct answer if the player answered incorrect
   showCorrectAnswer = () => {
     if (this.state.answerIncorrectly === true) {
       return (
