@@ -1,0 +1,17 @@
+.dog-game-image {
+  height: 400px;
+  width: 400px;
+  padding: 0 10px;
+}
+
+.navigation-button {
+  min-width: 120px;
+  min-height: 40px;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+div.dogs-list {
+  text-decoration: none;
+}

@@ -1,0 +1,20 @@
+.answer-button {
+  min-width: 120px;
+  min-height: 40px;
+  margin: 10px;
+  border-radius: 15px;
+  font-size: 20px;
+  background-color: white;
+  color: rgb(80, 20, 75);
+}
+
+.hint-button {
+  background-color: rgb(45, 182, 41);
+  border-radius: 50%;
+  color: white;
+}
+
+.hint-paragraph {
+  color: black;
+  font-weight: bold;
+}

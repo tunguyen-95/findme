@@ -1,0 +1,31 @@
+.listImages {
+  width: 200px;
+  height: 200px;
+  padding: 5px auto;
+}
+
+.listImages:hover {
+  width: 220px;
+  height: 220px;
+}
+
+.dog-card {
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  width: 300px;
+  height: 250px;
+  break-inside: avoid;
+  page-break-inside: avoid;
+  margin: 15px;
+  float: left;
+}
+
+.dog-card-text {
+  font-size: 20px;
+  font-family: serif;
+  border: 2px solid rgb(12, 16, 92);
+  width: 300px;
+  height: 30px;
+  border-radius: 15px;
+  color: rgb(12, 16, 92);
+}
